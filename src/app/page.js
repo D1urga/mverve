@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -89,14 +88,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.left_div}>
-        <Image
-          src="/Web.png"
-          width={100}
-          height={100}
-          quality={100}
-          className={styles.image}
-          alt="Image"
-        ></Image>
+        <img src="web.png" className={styles.image} alt="Image"></img>
       </div>
       <div className={styles.right_div}>
         <form onSubmit={handleSubmit}>
