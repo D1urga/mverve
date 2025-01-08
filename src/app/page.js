@@ -89,7 +89,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.left_div}>
-        <img src="/Web.png" className={styles.image}></img>
+        <img src="/Web.png" className={styles.image} alt="Image"></img>
       </div>
       <div className={styles.right_div}>
         <form onSubmit={handleSubmit}>
